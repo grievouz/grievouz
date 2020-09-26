@@ -1,16 +1,10 @@
-### Hi there 👋
-
-<!--
-**Grievouz/grievouz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div align="center">
+    <br>
+    <br>
+    <img width="600" src="img/helloThere.gif"/>
+    <br/>
+    <br/>
+    <p><strong>I've been looking forward to meeting you.</strong></p>
+    <p>Your pull requests will make a fine addition to my collection.</p>
+    </div>
+</div>
