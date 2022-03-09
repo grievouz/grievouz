@@ -1,3 +1,3 @@
 <div align="center">
-    <img src="img/hero.svg"/>
+    <a href="//ronke.dev/"><img src="img/hero.svg"/></a>
 </div>
