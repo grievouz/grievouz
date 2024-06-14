@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.separator {
+    height: 0.2rem;
+    width: 120px;
+    background-color: var(--border);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.project {
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 480px;
+}
+
+.project__hero {
+    height: 300px;
+    object-fit: cover;
+}
+
+.project__title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.project__subtitle {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.project__buttonContainer {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .project__buttonContainer {
+        width: 480px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project__buttonContainer {
+        flex-direction: column;
+    }
+}
+
+.project__button {
+    flex-wrap: wrap;
+    display: flex;
+    padding: 0.5rem;
+    border-color: var(--border);
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+    min-width: 220px;
+}
+
+.project__button span {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.project__button:hover {
+    background-color: var(--border);
+}

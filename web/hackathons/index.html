@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Hackathons - Tammo Ronke</title>
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+
+    <link rel="stylesheet" href="/styles/preflight.css">
+    <link rel="stylesheet" href="/styles/theme.css">
+    <link rel="stylesheet" href="/styles/hackathons-page.css">
+    <link rel="stylesheet" href="https://unpkg.com/css.gg@2.0.0/icons/css/chevron-right.css">
+    <!-- Social sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://grievouz.github.io/grievouz/hackathons.html" />
+    <meta property="og:title" content="Hackathons - Tammo Ronke" />
+    <meta property="og:image" content="https://grievouz.github.io/grievouz/images/og-image.jpg" />
+</head>
+
+<body x-data x-init="$router.config({ mode: 'hash' })">
+    <template x-route.notfound>
+        <div class="project">
+            <h1 class="project__title">Not Found</h1>
+        </div>
+    </template>
+
+    <!-- 04/2019 -->
+    <template x-route="/hacktival-2019">
+        <div class="project">
+            <h1 class="project__title">Bacon</h1>
+            <h3 class="project__subtitle">Hacktival</h3>
+            <div class="separator"></div>
+            <img class="project__hero" src="/images/hero-hacktival-2019.png">
+            <div class="project__buttonContainer">
+                <a class="project__button" href="//hacktival.devpost.com">
+                    <span x-text="$t('eventButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+                <a class="project__button" href="//devpost.com/software/bacon-rafg6b">
+                    <span x-text="$t('presentationButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+                <a class="project__button" href="//gitlab.com/hackathon-as-a-service/hacktival">
+                    <span x-text="$t('gitButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </template>
+
+    <!-- 02/2019 -->
+    <template x-route="/blockchain-hackathon-2019">
+        <div class="project">
+            <h1 class="project__title">Hyperprivacy</h1>
+            <h3 class="project__subtitle">Blockchain Hackathon</h3>
+            <div class="separator"></div>
+            <img class="project__hero" src="/images/hero-blockchain-hackathon-2019.jpg">
+            <div class="project__buttonContainer">
+                <a class="project__button" href="//www.blockchain-hackathon.de/review-hackathon-2019/">
+                    <span x-text="$t('eventButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+                <a class="project__button" href="//github.com/hyperprivacy">
+                    <span x-text="$t('gitButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </template>
+
+    <!-- 11/2018 -->
+    <template x-route="/basf-coding-chemistry-2018">
+        <div class="project">
+            <h1 class="project__title">X-Reality Store</h1>
+            <h3 class="project__subtitle">BASF Coding Chemistry</h3>
+            <div class="separator"></div>
+            <img class="project__hero" src="/images/hero-basf-coding-chemistry-2018.jpg">
+            <div class="project__buttonContainer">
+                <a class="project__button" href="//web.archive.org/web/20190102201122/https://www1.basf.com/hackathon/hackathon.en.html">
+                    <span x-text="$t('eventButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+                <a class="project__button" href="//gitlab.com/hackathon-as-a-service/x-reality">
+                    <span x-text="$t('gitButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </template>
+
+    <!-- 08/2018 -->
+    <template x-route="/ludum-dare-42">
+        <div class="project">
+            <h1 class="project__title">Orbiteer</h1>
+            <h3 class="project__subtitle">Ludum Dare 42</h3>
+            <div class="separator"></div>
+            <img class="project__hero" src="/images/hero-ludum-dare-42.png">
+            <div class="project__buttonContainer">
+                <a class="project__button" href="//ldjam.com/events/ludum-dare/42">
+                    <span x-text="$t('eventButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+                <a class="project__button" href="//ldjam.com/events/ludum-dare/42/orbiteer">
+                    <span x-text="$t('projectButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </template>
+
+    <!-- 04/2018 -->
+    <template x-route="/hack-data-ki-bots-2018">
+        <div class="project">
+            <h1 class="project__title">C3Pbot</h1>
+            <h3 class="project__subtitle">HACK.DATA.KI.BOTS</h3>
+            <div class="separator"></div>
+            <img class="project__hero" src="/images/hero-hack-data-ki-bots-2018.jpg">
+            <div class="project__buttonContainer">
+                <a class="project__button" href="//nextiteration.de/blog/hack-data-ki-bots-hackathon-in-mannheim/">
+                    <span x-text="$t('eventButton')"></span>
+                </a>
+                <a class="project__button" href="//www.slideshare.net/slideshow/hackathon-hackdatakibots-pitch-irgendwasmitz/95214945">
+                    <span x-text="$t('presentationButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+                <a class="project__button" href="//gitlab.com/hackathon-as-a-service/data-ki-bots">
+                    <span x-text="$t('gitButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </template>
+
+    <!-- 06/2018 -->
+    <template x-route="/life-science-meets-it-2018">
+        <div class="project">
+            <h1 class="project__title">{Life Science} meets IT</h1>
+            <div class="separator"></div>
+            <img class="project__hero" src="/images/hero-life-science-meets-it-2018.jpg">
+            <div class="project__buttonContainer">
+                <a class="project__button" href="//www.mcei.de/startup-support/partner-support/advisory-and-support/life-science-meets-it-hackathon-2018">
+                    <span x-text="$t('eventButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+                <a class="project__button" href="//gitlab.com/hackathon-as-a-service/life-science">
+                    <span x-text="$t('gitButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </template>
+
+    <!-- 03/2018 -->
+    <template x-route="/opencodes-2018">
+        <div class="project">
+            <h1 class="project__title">Barbra</h1>
+            <h3 class="project__subtitle">Opencodes</h3>
+            <div class="separator"></div>
+            <img class="project__hero" src="/images/hero-opencode-2018.png">
+            <div class="project__buttonContainer">
+                <a class="project__button" href="//zkm.de/de/veranstaltung/2018/12/coding-culture-hackathon-ii">
+                    <span x-text="$t('eventButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+                <a class="project__button" href="//github.com/BitPhinix/Barbra">
+                    <span x-text="$t('gitButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </template>
+
+    <!-- 02/2018 -->
+    <template x-route="/mission-blockhack-2018">
+        <div class="project">
+            <h1 class="project__title">Loyalify</h1>
+            <h3 class="project__subtitle">Mission Blockhack</h3>
+            <div class="separator"></div>
+            <img class="project__hero" src="/images/hero-mission-blockhack-2018.webp">
+            <div class="project__buttonContainer">
+                <a class="project__button" href="//missionblockhack.hackathon.com/#/event">
+                    <span x-text="$t('eventButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+                <a class="project__button" href="//github.com/grievouz/hackthon-2018-mission-blockhack">
+                    <span x-text="$t('gitButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </template>
+
+    <!-- 09/2017 -->
+    <template x-route="/make-bots-great-again-2017">
+        <div class="project">
+            <h1 class="project__title">Aw(e)someBot</h1>
+            <h3 class="project__subtitle">Make Bots Great Again</h3>
+            <div class="separator"></div>
+            <img class="project__hero" src="/images/hero-make-bots-great-again-2017.jpg">
+            <div class="project__buttonContainer">
+                <a class="project__button" href="//www.hackathon.com/event/hackathon-make-bots-great-again-35958760621">
+                    <span x-text="$t('eventButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+                <a class="project__button" href="//github.com/BitPhinix/AwsomeBot">
+                    <span x-text="$t('gitButton')"></span>
+                    <i class="gg-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </template>
+
+    <script src="//unpkg.com/@shaun/alpinejs-router@1.x.x/dist/cdn.min.js" defer></script>
+    <script type="module">
+        import AlpineI18n from "//unpkg.com/alpinejs-i18n@2.x.x/dist/module.esm.min.js";
+        let messages = {
+            en: {
+                eventButton: "Event Website",
+                gitButton: "Git Repository",
+                projectButton: "Project Website",
+                presentationButton: "Presentation",
+            },
+            de: {
+                eventButton: "Event Webseite",
+                gitButton: "Git Repository",
+                projectButton: "Projekt Webseite",
+                presentationButton: "Präsentation",
+            },
+        };
+
+        const params = new URLSearchParams(location.hash.split("?")[1])
+        const fallbackLocale = "en";
+        const locale = params.get("locale") || fallbackLocale;
+        document.addEventListener("alpine-i18n:ready", function () {
+            window.AlpineI18n.fallbackLocale = fallbackLocale;
+            window.AlpineI18n.create(locale, messages);
+        });
+        document.addEventListener("alpine:init", () => {
+            window.Alpine.plugin(AlpineI18n);
+        });
+    </script>
+    <script src="//unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <script src="//unpkg.com/lucide@0.x/dist/umd/lucide.min.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
