@@ -9,7 +9,7 @@
 </p>
 <div align="center">
     <br>
-    <a href="https://discordapp.com/users/240530818475229184" target="_blank">
+    <a href="https://discordapp.com/users/240530818475229184" target="_blank" style="text-decoration:none">
         <picture>
             <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/grievouz/grievouz/main/img/discord-dark.svg">
             <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/grievouz/grievouz/main/img/discord-light.svg">
@@ -17,7 +17,7 @@
         </picture>
     </a>
     &nbsp;&nbsp;&nbsp;
-    <a href="https://twitter.com/grievouz_" target="_blank">
+    <a href="https://twitter.com/grievouz_" target="_blank" style="text-decoration:none">
         <picture>
             <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/grievouz/grievouz/main/img/twitter-dark.svg">
             <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/grievouz/grievouz/main/img/twitter-light.svg">
