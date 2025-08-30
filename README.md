@@ -7,8 +7,8 @@
         <img src="https://raw.githubusercontent.com/grievouz/grievouz/main/img/quote-light.svg">
     </picture>
 </p>
-<div align="center">
-    <br>
+<br>
+<div style="display:flex;justify-content:center">
     <a href="https://discordapp.com/users/240530818475229184" target="_blank" style="text-decoration:none">
         <picture>
             <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/grievouz/grievouz/main/img/discord-dark.svg">
