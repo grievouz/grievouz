@@ -3,7 +3,7 @@
     <br>
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/grievouz/grievouz/main/img/quote-dark.svg">
-        <source  media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/grievouz/grievouz/main/img/quote-light.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/grievouz/grievouz/main/img/quote-light.svg">
         <img src="https://raw.githubusercontent.com/grievouz/grievouz/main/img/quote-light.svg">
     </picture>
 </p>
@@ -12,7 +12,7 @@
     <a href="https://discordapp.com/users/240530818475229184" target="_blank">
         <picture>
             <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/grievouz/grievouz/main/img/discord-dark.svg">
-            <source  media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/grievouz/grievouz/main/img/discord-light.svg">
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/grievouz/grievouz/main/img/discord-light.svg">
             <img height="20px" src="https://raw.githubusercontent.com/grievouz/grievouz/main/img/discord-light.svg">
         </picture>
     </a>
@@ -20,8 +20,8 @@
     <a href="https://twitter.com/grievouz_" target="_blank">
         <picture>
             <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/grievouz/grievouz/main/img/twitter-dark.svg">
-            <source  media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/grievouz/grievouz/main/img/twitter-light.svg">
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/grievouz/grievouz/main/img/twitter-light.svg">
             <img height="20px" src="https://raw.githubusercontent.com/grievouz/grievouz/main/img/twitter-light.svg">
         </picture>
     </a>
-</ul>
+</div>
