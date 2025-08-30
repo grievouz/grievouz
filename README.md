@@ -7,8 +7,7 @@
         <img src="https://raw.githubusercontent.com/grievouz/grievouz/main/img/quote-light.svg">
     </picture>
 </p>
-<div align="center">
-    <div style="display:flex;justify-content:center;gap:20px;">
+<div align="center" class="grid">
         <div>
             <a href="https://discordapp.com/users/240530818475229184" target="_blank" style="text-decoration:none">
                 <picture>
@@ -27,5 +26,4 @@
                 </picture>
             </a>
         </div>
-    </div>
 </div>
